@@ -500,7 +500,7 @@ main{
     }
 
     .programs {
-        grid-template-columns: repeat(auto-fit, minmax(230px, 0.7fr));
+        grid-template-columns: repeat(auto-fit, minmax(230px, 0.8fr));
         justify-content: center;
     }    
 
@@ -537,6 +537,7 @@ main{
             margin-bottom: 30px;
             padding: 0 10px;
         }
+        grid-template-columns: repeat(auto-fit, minmax(230px, 0.9fr));
         .top-coner .arrow-icon i{
             font-size: 25px;
             font-weight: 100;
@@ -546,9 +547,15 @@ main{
             text-transform: uppercase;
             font-size: 1.2rem;
         }
+          body {
+        padding: 0 10px;
+    }
     }
  @media (max-width : 360px) {
     .footer-box-1{
         flex: 1 0 200px;
+    }
+       body {
+        padding: 0 10px;
     }
  }
